@@ -19,9 +19,5 @@ Route::group(['prefix' => 'admin'], function () {
 
     Auth::routes();
     Route::resource('users','UserController');
-    Route::get('/', 'HomeController@xyz')->name('home');
-
 });
-
-Route::get('/', 'HomeController@index')->name('home');
 
