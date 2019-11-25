@@ -22,6 +22,6 @@ class HomeController extends Controller
     }
     public function test()
     {
-        return view('backend.home');
+        return view('backend.year.test');
     }
 }

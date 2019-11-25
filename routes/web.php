@@ -15,9 +15,9 @@
 //     return view('welcome');
 // });
 
-Route::group(['prefix' => 'admin'], function () {
+// Route::group(['prefix' => 'admin'], function () {
 
-    Auth::routes();
-    Route::resource('users','UserController');
-});
+//     Auth::routes();
+//     Route::resource('users','UserController');
+// });
 
