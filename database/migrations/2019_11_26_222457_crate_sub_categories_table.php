@@ -19,6 +19,7 @@ class CrateSubCategoriesTable extends Migration
             $table->foreign('category_id')->references('id')->on('categories');
             $table->string('name');
             $table->string('image_path');
+            $table->boolean('deleted')->default(false);
             $table->timestamps();
         });
     }
