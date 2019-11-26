@@ -18,10 +18,6 @@ class HomeController extends Controller
     }
     public function index()
     {
-        return 'I am a backend';
-    }
-    public function test()
-    {
-        return view('backend.year.test');
+        return view('backend.home');
     }
 }

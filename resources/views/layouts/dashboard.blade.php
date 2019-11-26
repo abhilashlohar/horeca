@@ -53,36 +53,7 @@
                 <span style=" color: #FEFEFE; font-size: 14px;">  Dashboard </span> 
               </a>
             </li>
-            <li class="nav-item p-1">
-              <a class="nav-link" href="{{ route('students.index') }}" style="text-align: center;">
-                <img src="/img/student.png" style="height: 40px;"><br/>
-                <span style=" color: #FEFEFE; font-size: 14px;">  Students </span> 
-              </a>
-            </li>
-            <li class="nav-item p-1">
-              <a class="nav-link" href="{{ route('courses.index') }}" style="text-align: center;">
-                <img src="/img/homework.png" style="height: 40px;"><br/>
-                <span style=" color: #FEFEFE; font-size: 14px;">  Courses </span> 
-              </a>
-            </li>
-            <li class="nav-item p-1">
-              <a class="nav-link" href="{{ route('streams.index') }}" style="text-align: center;">
-                <img src="/img/stream.png" style="height: 40px;"><br/>
-                <span style=" color: #FEFEFE; font-size: 14px;">  Streams </span> 
-              </a>
-            </li>
-            <li class="nav-item p-1">
-              <a class="nav-link" href="{{ route('years.index') }}" style="text-align: center;">
-                <img src="/img/calendar.png" style="height: 40px;"><br/>
-                <span style=" color: #FEFEFE; font-size: 14px;">  Year </span> 
-              </a>
-            </li>
-            <li class="nav-item p-1">
-              <a class="nav-link" href="{{ route('semesters.index') }}" style="text-align: center;">
-                <img src="/img/library.png" style="height: 40px;"><br/>
-                <span style=" color: #FEFEFE; font-size: 14px;">  Semester </span> 
-              </a>
-            </li>
+            
             <li class="nav-item p-1">
               <a class="nav-link" href="{{ route('users.index') }}" style="text-align: center;">
                 <img src="/img/user.png" style="height: 40px;"><br/>
